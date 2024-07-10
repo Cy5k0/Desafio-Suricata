@@ -1,0 +1,52 @@
+#Eventos-Anteriores {
+    text-align: center;
+    }
+nav {
+        background-color: #E83E8C !important; 
+    }
+
+.navbar-brand img{
+    height: 53px;
+    width: 132px;
+}
+
+.productos-container h2 {
+    text-align: center;
+    color: #707070;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+    .productos-container h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .productos-container h2 {
+        font-size: 30px;
+    }
+}
+
+
+
+.nav-link {
+    color: #ffffff;
+}
+
+.tjtas-ico {
+    color:#ffffff;
+}
+
+footer {
+    background-color: #E83E8C !important;
+}
+
+.medios-pagos {
+    background-color: #17a2b8;
+}
