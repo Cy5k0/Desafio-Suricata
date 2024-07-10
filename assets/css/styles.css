@@ -9,6 +9,9 @@ nav {
     height: 53px;
     width: 132px;
 }
+.menu-container {
+    padding: 8vw;
+}
 
 .productos-container h2 {
     text-align: center;
@@ -17,6 +20,14 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.prod-comidas {
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 32.12px;
+    padding-bottom: 32.12px;
 }
 
 .productos-item {
@@ -59,6 +70,70 @@ nav {
 }
 
 
+/* CSS medios de pago  */
+
+.medios-pagos-section {
+    padding: 40px 0;
+    background-color: #17a2b8;
+}
+
+.medios-pagos-section p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.tjtas-ico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tjtas-ico i {
+    font-size: 55px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    .medios-pagos-section p,
+    .tjtas-ico i {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .medios-pagos-section p,
+    .tjtas-ico i {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .medios-pagos-section p
+    .tjtas-ico i {
+        font-size: 35px;
+    }
+    .medios-pagos-sections span {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .medios-pagos-section p
+    .tjtas-ico i {
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .medios-pagos-section {
+      display: none !important;
+    }
+  }
 
 .nav-link {
     color: #ffffff;
@@ -67,6 +142,7 @@ nav {
 .tjtas-ico {
     color:#ffffff;
 }
+/*--------------------------------------------- */
 
 footer {
     background-color: #E83E8C !important;
