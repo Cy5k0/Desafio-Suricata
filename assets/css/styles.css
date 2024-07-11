@@ -9,6 +9,12 @@ nav {
     height: 53px;
     width: 132px;
 }
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+
 .menu-container {
     padding: 8vw;
 }
@@ -50,11 +56,29 @@ nav {
     font-size: 1.2em;
     padding: 10px;
     margin-bottom: 0;
+    border-bottom: none;
 }
 
 .descp-item {
     padding: 0 10px 10px;
+    margin: 0px;
     flex-grow: 1;
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+   
+}
+
+.descp-item-link{
+    /*padding: 0 10px 10px;*/
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.descp-item-link a {
+    padding-left: 0px;
+    margin: 5%;
 }
 
 @media (max-width: 768px) {
@@ -147,6 +171,14 @@ nav {
 footer {
     background-color: #E83E8C !important;
 }
+
+.footer-logo {
+    max-width: 202px;
+    max-height: 106px;
+    width: auto;
+    height: auto;
+  }
+
 
 .medios-pagos {
     background-color: #17a2b8;
